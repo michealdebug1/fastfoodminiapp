@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Arial, Helvetica, sans-serif;
+  --color-admin-canvas: #f5f6f7;
+  --color-admin-surface: #ffffff;
+  --color-admin-line: #e7e9ec;
+  --color-admin-ink: #20252b;
+  --color-admin-muted: #727b86;
+  --color-admin-orange: #ed6a3a;
+  --color-admin-orange-soft: #fff1eb;
+  --color-admin-green: #23845b;
+  --color-admin-green-soft: #eaf6ef;
+  --color-admin-red: #c44848;
+  --color-admin-red-soft: #fff0ef;
+  --color-admin-amber: #a76b12;
+  --color-admin-amber-soft: #fff5df;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-admin-line);
+  }
+
+  html {
+    min-width: 320px;
+    background: var(--color-admin-canvas);
+    text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-admin-canvas);
+    color: var(--color-admin-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 3px solid rgb(237 106 58 / 45%);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    color: #20252b;
+    background: #ffe0d2;
+  }
+}

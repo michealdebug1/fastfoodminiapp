@@ -1,0 +1,269 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Bun Run design tokens
+   Single source of truth for colour, type, radius, elevation and motion.
+   Tailwind v4 turns every token into a utility (bg-cream-100, rounded-card, ...).
+   --------------------------------------------------------------------------- */
+
+@theme {
+  /* Typography */
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-nunito), ui-rounded, "Segoe UI", sans-serif;
+
+  /* Warm paper */
+  --color-cream-50: #fffdf8;
+  --color-cream-100: #fff8ec;
+  --color-cream-200: #fbeed9;
+  --color-cream-300: #f5e0c5;
+  --color-cream-400: #ebcea9;
+
+  /* Ink (warm near-black) */
+  --color-ink-900: #241a12;
+  --color-ink-800: #322419;
+  --color-ink-700: #493628;
+  --color-ink-600: #66503f;
+  --color-ink-500: #826b59;
+  --color-ink-400: #a08a77;
+  --color-ink-300: #bfa996;
+
+  /* Energetic yellow */
+  --color-yellow-100: #fff5c7;
+  --color-yellow-200: #ffe88f;
+  --color-yellow-300: #ffdb5c;
+  --color-yellow-400: #ffc929;
+  --color-yellow-500: #f0b400;
+  --color-yellow-600: #c89300;
+
+  /* Tomato red */
+  --color-tomato-100: #ffe7e1;
+  --color-tomato-200: #ffc9bd;
+  --color-tomato-400: #f4654f;
+  --color-tomato-500: #e8472f;
+  --color-tomato-600: #c93420;
+  --color-tomato-700: #a52a1a;
+
+  /* Basil green (success / fresh) */
+  --color-basil-100: #e3f4e9;
+  --color-basil-200: #c5e8d2;
+  --color-basil-500: #2f8f5b;
+  --color-basil-600: #247347;
+
+  /* Surfaces & lines */
+  --color-surface: #fffdf9;
+  --color-line: #efdfc9;
+  --color-line-strong: #e3cfb4;
+
+  /* Radii */
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-3xl: 2.5rem;
+  --radius-pill: 9999px;
+
+  /* Elevation */
+  --shadow-soft: 0 1px 2px rgb(36 26 18 / 0.04), 0 8px 24px -16px rgb(36 26 18 / 0.18);
+  --shadow-card: 0 1px 2px rgb(36 26 18 / 0.05), 0 16px 36px -24px rgb(36 26 18 / 0.32);
+  --shadow-float: 0 20px 44px -18px rgb(36 26 18 / 0.38);
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ---------------------------------------------------------------------------
+   Base layer
+   --------------------------------------------------------------------------- */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-cream-100);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--color-yellow-300);
+    color: var(--color-ink-900);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-tomato-500);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Reusable utilities
+   --------------------------------------------------------------------------- */
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 0.5rem);
+}
+
+@utility safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+@utility bg-dot-grid {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgb(36 26 18 / 0.14) 1px,
+    transparent 0
+  );
+  background-size: 16px 16px;
+}
+
+@utility bg-ticket-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(36 26 18 / 0.08) 0 2px,
+    transparent 2px 8px
+  );
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Native <dialog> used by the cart sheet: mobile-first bottom sheet. */
+.cart-dialog {
+  position: fixed;
+  inset: auto 0 0;
+  width: 100%;
+  max-width: 32rem;
+  max-height: min(88dvh, 46rem);
+  margin-inline: auto;
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+.cart-dialog::backdrop {
+  background: rgb(36 26 18 / 0.48);
+  backdrop-filter: blur(3px);
+}
+
+.cart-dialog[open] {
+  animation: sheet-rise 300ms var(--ease-out-soft);
+}
+
+.cart-dialog[open]::backdrop {
+  animation: backdrop-in 200ms ease-out;
+}
+
+@keyframes sheet-rise {
+  from {
+    opacity: 0;
+    transform: translateY(2.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.product-dialog {
+  position: fixed;
+  inset: 0;
+  width: min(28rem, calc(100vw - 2rem));
+  max-width: none;
+  max-height: 85dvh;
+  margin: auto;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+}
+
+.product-dialog::backdrop {
+  background: rgb(36 26 18 / 0.48);
+  backdrop-filter: blur(3px);
+}
+
+.product-dialog[open] {
+  animation: dialog-in 180ms ease-out;
+}
+
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cart-dialog[open],
+  .cart-dialog[open]::backdrop,
+  .product-dialog[open] {
+    animation: none;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cart-dialog {
+    bottom: 1.5rem;
+    border-radius: var(--radius-3xl);
+  }
+}

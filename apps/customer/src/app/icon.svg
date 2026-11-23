@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bun Run">
+  <rect width="64" height="64" rx="18" fill="#FFC929"/>
+  <path d="M13 27c0-8.8 8.5-14 19-14s19 5.2 19 14H13Z" fill="#241A12"/>
+  <circle cx="24" cy="21" r="1.5" fill="#FFF8EC"/>
+  <circle cx="32" cy="18.5" r="1.5" fill="#FFF8EC"/>
+  <circle cx="40" cy="21" r="1.5" fill="#FFF8EC"/>
+  <path d="M12 31h40l-3 5H15l-3-5Z" fill="#E8472F"/>
+  <rect x="15" y="38" width="34" height="5" rx="2.5" fill="#FFF8EC"/>
+  <path d="M15 45h34c0 4.4-3.6 7-8 7H23c-4.4 0-8-2.6-8-7Z" fill="#241A12"/>
+</svg>

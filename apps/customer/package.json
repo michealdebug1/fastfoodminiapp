@@ -1,0 +1,35 @@
+{
+  "name": "@food-platform/customer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Telegram Mini App ordering experience for a single fast-food restaurant.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/telegram-identity.test.mjs tests/checkout-idempotency.test.mjs tests/i18n-parity.test.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.2",
+    "framer-motion": "^14.14.0",
+    "lucide-react": "^1.77.0",
+    "next": "16.4.6",
+    "next-intl": "^4.15.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.4.6",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~5.9.3"
+  }
+}

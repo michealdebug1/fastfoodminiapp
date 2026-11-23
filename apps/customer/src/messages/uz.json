@@ -1,0 +1,371 @@
+{
+  "Metadata": {
+    "title": "Bun Run — smash-burgerlar, issiq kartoshka va sovuq sheyklar",
+    "description": "Bun Run’dan smash-burgerlar, qarsildoq tovuq, kartoshka va sheyklarga buyurtma bering — Telegram ichida buyurtma tajribasi.",
+    "adminTitle": "Sharh",
+    "adminDescription": "Bugungi buyurtmalar, tushum va eng koʻp sotilganlar."
+  },
+  "Brand": {
+    "tagline": "Smash-burgerlar. Issiq kartoshka. Sovuq sheyklar."
+  },
+  "Header": {
+    "pickupLabel": "Faqat olib ketish"
+  },
+  "Nav": {
+    "menu": "Menyu",
+    "cart": "Savat",
+    "primaryLabel": "Asosiy navigatsiya",
+    "openCart": "Savatni ochish",
+    "cartWithCount": "Savatni ochish: {count} ta mahsulot",
+    "about": "Biz haqimizda"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Faqat olib ketish",
+      "title": "Yorqin taʼm.\nTez tayyor.",
+      "description": "Grilda qovurilgan kotletlar, qarsildoq kartoshka va sheyklar. Telegram ichida buyurtma bering, restorandan olib keting.",
+      "cta": "Menyuni koʻrish",
+      "pickup": "Olib ketish",
+      "paymentAtRestaurant": "Restoranda to'lash",
+      "heroBadge": "Yangi tayyorlanadi"
+    },
+    "perks": {
+      "pickup": {
+        "title": "Faqat olib ketish",
+        "description": "Buyurtmangizni restorandan o'zingiz olib keting."
+      },
+      "payment": {
+        "title": "Restoranda to'lash",
+        "description": "Buyurtma uchun restoranimizda naqd to'lang."
+      },
+      "status": {
+        "title": "Buyurtma holatini kuzating",
+        "description": "Tasdiqlash va tayyorlanish jarayonini ko'ring."
+      }
+    },
+    "menu": {
+      "eyebrow": "Menyu",
+      "title": "Nimani xohlayotganingizni tanlang",
+      "description": "Hammasi buyurtmadan keyin tayyorlanadi. Toraytirish uchun kategoriyani tanlang.",
+      "all": "Hammasi",
+      "categoriesLabel": "Menyuni kategoriya boʻyicha filtrlash",
+      "empty": "Bu kategoriyada hozircha taom yoʻq. Boshqasini sinab koʻring.",
+      "results": "{count} ta taom"
+    },
+    "footer": {
+      "madeFor": "Telegram uchun yaratilgan",
+      "addressUnavailable": "Manzil sozlanmagan",
+      "pickupOnly": "Faqat olib ketish"
+    }
+  },
+  "Menu": {
+    "categories": {
+      "burgers": "Burgerlar",
+      "chicken": "Tovuq",
+      "sides": "Gazaklar",
+      "drinks": "Ichimliklar",
+      "desserts": "Shirinliklar"
+    },
+    "products": {
+      "smashClassic": {
+        "name": "Smash Klassik",
+        "description": "Ikki marta bosilgan mol goʻshti, yetiltirilgan cheddar, tuzlangan bodring va uy sousi qovurilgan kartoshka bulochkasida."
+      },
+      "doubleTrouble": {
+        "name": "Ikki Barobar",
+        "description": "Ikki kotlet, ikki boʻlak pishloq, qarsildoq piyoz va dudlangan pomidor jemi."
+      },
+      "crispyChicken": {
+        "name": "Qarsildoq Tovuq",
+        "description": "Zardobda marinadlangan tovuq, qarsildoq karam salati va asal-xantal sousi."
+      },
+      "firebird": {
+        "name": "Olov Qush",
+        "description": "Nashville uslubidagi achchiq tovuq, sovutuvchi ranch sousi va tuzlangan bodring. Ehtiyot boʻling."
+      },
+      "loadedFries": {
+        "name": "Yuklangan Kartoshka",
+        "description": "Poʻstlogʻi bilan qovurilgan kartoshka, pishloq sousi, qarsildoq piyoz va koʻk piyoz."
+      },
+      "onionRings": {
+        "name": "Piyoz Halqalari",
+        "description": "Shirin piyoz, qarsildoq xamir va dudlangan sous."
+      },
+      "macBites": {
+        "name": "Mak-Baytlar",
+        "description": "Oltin rangda qovurilgan mak-n-chiz boʻlaklari, ichi erigan pishloq."
+      },
+      "vanillaShake": {
+        "name": "Vanil Sheyk",
+        "description": "Qalin vanil muzqaymoq, haqiqiy qaymoq bilan koʻpirtirilgan."
+      },
+      "cola": {
+        "name": "Klassik Kola",
+        "description": "Muzdek, gazlangan va olib ketishda bepul toʻldirish."
+      },
+      "lemonade": {
+        "name": "Pushti Limonad",
+        "description": "Yangi limon, ozgina malina va koʻp muz."
+      },
+      "chocoCookie": {
+        "name": "Shokoladli Pechonye",
+        "description": "Iliq oʻrtasi, qarsildoq chetlari va qora shokolad boʻlaklari."
+      },
+      "sundae": {
+        "name": "Tuzli Karamel Sandey",
+        "description": "Yumshoq muzqaymoq, tuzli karamel va qovurilgan funduk."
+      }
+    },
+    "featured": "Mashhur",
+    "unnamedProduct": "Mahsulot",
+    "badges": {
+      "bestseller": "Xit",
+      "new": "Yangi",
+      "spicy": "Achchiq"
+    },
+    "addToCart": "“{name}”ni savatga qoʻshish",
+    "added": "Qoʻshildi"
+  },
+  "Cart": {
+    "title": "Sizning buyurtmangiz",
+    "count": "{count} ta mahsulot",
+    "viewCart": "Savatni koʻrish",
+    "barLabel": "{count} ta mahsulot · {total}",
+    "empty": {
+      "title": "Savat boʻsh",
+      "description": "Menyudan biror narsa qoʻshing — oshxona tayyor.",
+      "cta": "Menyuni koʻrish"
+    },
+    "subtotal": "Jami",
+    "checkout": "Rasmiylashtirish",
+    "paymentAtRestaurant": "Restoranda to'lash",
+    "pickup": "Buyurtmani olib ketish",
+    "pickupUnavailable": "Hozircha olib ketish buyurtmalari qabul qilinmaydi.",
+    "minimumNotMet": "Minimal buyurtma summasi {amount}.",
+    "cartChanged": "Savatni tekshiring va qayta urinib ko'ring.",
+    "menuChanged": "Menyu o'zgargan. Savatni yangilang va qayta urinib ko'ring.",
+    "processingDuplicate": "Buyurtma yuborilmoqda. Biroz kuting.",
+    "sessionError": "Buyurtma uchun sessiya yaratilmadi. Keyinroq qayta urinib ko'ring.",
+    "checkoutError": "Buyurtmani yuborib bo'lmadi. Qayta urinib ko'ring.",
+    "submitting": "Yuborilmoqda…",
+    "clear": "Buyurtmani tozalash",
+    "close": "Savatni yopish",
+    "remove": "“{name}”ni olib tashlash",
+    "increase": "“{name}”dan bittasini qoʻshish",
+    "decrease": "“{name}”dan bittasini olib tashlash",
+    "itemAdded": "“{name}” buyurtmaga qoʻshildi",
+    "quantity": "Miqdor"
+  },
+  "ProductOptions": {
+    "chooseAtLeast": "Kamida {count} ta tanlang",
+    "optional": "Ixtiyoriy",
+    "unavailable": "Hozircha tanlov mavjud emas.",
+    "cancel": "Bekor qilish",
+    "add": "Savatga qo'shish"
+  },
+  "Order": {
+    "submitted": "Buyurtma yuborildi",
+    "pendingDescription": "Restoran xodimlari buyurtmangizni tasdiqlagach, holati yangilanadi.",
+    "backToMenu": "Menyuga qaytish",
+    "paymentAtRestaurant": "Restoranda to'lash",
+    "pickup": "Buyurtmani olib ketish",
+    "orderNumber": "Buyurtma raqami",
+    "items": "Buyurtma tarkibi",
+    "total": "Jami",
+    "status": "Buyurtma holati",
+    "refreshStatus": "Holatni yangilash",
+    "refreshingStatus": "Yangilanmoqda…",
+    "createdAt": "Yaratilgan vaqt",
+    "pickupAddress": "Olib ketish manzili",
+    "notAvailable": "Ma'lumot mavjud emas",
+    "statusPending": "Tasdiqlanishini kutmoqda",
+    "statusConfirmed": "Buyurtma tasdiqlandi",
+    "statusPreparing": "Tayyorlanmoqda",
+    "statusReady": "Tayyor",
+    "statusReadyForPickup": "Olib ketishga tayyor",
+    "statusOutForDelivery": "Yetkazib berishga olib chiqildi",
+    "statusDelivered": "Yetkazib berildi",
+    "statusCompleted": "Olib ketildi",
+    "statusCancelled": "Bekor qilindi",
+    "paymentPaid": "To'langan",
+    "paymentUnpaid": "To'lanmagan — restoranda to'lang",
+    "paymentOther": "To'lov holati ko'rinmaydi",
+    "paymentNotAvailable": "To'lov ma'lumoti mavjud emas.",
+    "loadError": "Buyurtma ma'lumotlarini yuklab bo'lmadi."
+  },
+  "TelegramIdentity": {
+    "guest": "Mehmon",
+    "open": "Hisob va tiklash",
+    "title": "Hisob maʼlumotlari",
+    "close": "Yopish",
+    "notInTelegram": "Hisobni bogʻlash Telegram Mini App ichida ishlaydi. Mehmon sifatida buyurtma berishda davom etishingiz mumkin.",
+    "checking": "Hisob tekshirilmoqda…",
+    "working": "Bajarilmoqda…",
+    "unlinked": "Telegram hisobingiz hali buyurtmalar bilan bogʻlanmagan.",
+    "linked": "Telegram hisobi bogʻlandi.",
+    "linkedAs": "Telegram hisobi {name} nomi bilan bogʻlangan.",
+    "contactConsent": "Telefon raqamingiz faqat Telegram hisobingizni ushbu buyurtma profili bilan bogʻlash va ixtiyoriy hisobni tiklash uchun ishlatiladi. Buyurtma berish uchun raqam shart emas.",
+    "shareContact": "Telegram kontaktimni ulashish",
+    "openBot": "Telegram botni ochish",
+    "contactPending": "Botda aynan oʻz kontaktingizni ulashing. Bot oynasini yopmang.",
+    "contactVerified": "Telefon raqamingiz tasdiqlandi. Hisobni bogʻlashni yakunlang.",
+    "link": "Hisobni bogʻlash",
+    "recoveryConsent": "SMS orqali tiklash ixtiyoriy. Yoqilganda tasdiqlangan telefon raqamingiz Supabase hisobingizga ulanadi.",
+    "enableRecovery": "SMS orqali tiklashni yoqish",
+    "recoveryEnabled": "SMS orqali hisobni tiklash yoqildi.",
+    "recoveryUnavailable": "Bu hisobda SMS orqali tiklash yoqilmagan. Hozirgi qurilmadagi hisobdan chiqmasdan uni yoqing.",
+    "startRecovery": "SMS orqali hisobni tiklash",
+    "codeSent": "Tasdiqlash kodi {phone} raqamiga yuborildi.",
+    "codeLabel": "SMS tasdiqlash kodi",
+    "verifyCode": "Kodni tasdiqlash",
+    "restart": "Yangi soʻrov boshlash",
+    "success": "Hisob maʼlumotlari yangilandi.",
+    "errors": {
+      "generic": "Amalni bajarib boʻlmadi. Qayta urinib koʻring.",
+      "unavailable": "Hisobni bogʻlash xizmati hozircha mavjud emas. Mehmon sifatida buyurtma berishingiz mumkin.",
+      "telegramVerification": "Telegram hisobini tasdiqlab boʻlmadi. Mini App’ni qayta oching.",
+      "session": "Xavfsiz hisob sessiyasini yaratib boʻlmadi. Qayta urinib koʻring.",
+      "rateLimited": "Juda koʻp urinish boʻldi. Biroz kutib qayta urinib koʻring.",
+      "consent": "Davom etish uchun telefon raqamini ulashishga rozilik bering.",
+      "alreadyLinked": "Bu Telegram hisobi avval boshqa buyurtma profiliga bogʻlangan.",
+      "challenge": "Bogʻlash soʻrovi topilmadi yoki muddati tugadi. Yangi soʻrov boshlang.",
+      "notVerified": "Avval bot orqali oʻz telefon raqamingizni tasdiqlang.",
+      "identityConflict": "Hisobni boshqa profilga bogʻlab boʻlmaydi.",
+      "notLinked": "Telegram hisobi buyurtma profili bilan hali bogʻlanmagan.",
+      "recoveryNotEnabled": "SMS orqali tiklash yoqilmagan.",
+      "recoveryUnavailable": "SMS kodini yuborib boʻlmadi. Keyinroq qayta urinib koʻring.",
+      "recoveryMismatch": "Tasdiqlangan telefon boshqa hisobga tegishli. Sessiya xavfsizlik uchun yopildi.",
+      "invalidCode": "Kod notoʻgʻri yoki muddati tugagan.",
+      "profileMismatch": "Joriy buyurtma profili Telegram hisobi bilan mos kelmadi.",
+      "identityRequired": "Telegram tasdiqlash muddati tugadi. Mini App’ni qayta ochib, yana urinib koʻring."
+    },
+    "bot": {
+      "openStore": "Telefon raqamini bogʻlash uchun avval restoran Mini App’ini oching.",
+      "challengeExpired": "Soʻrov topilmadi yoki muddati tugadi. Mini App’dan yangi soʻrov boshlang.",
+      "shareContact": "Hisobni bogʻlash uchun Telegram kontakt tugmasi orqali faqat oʻz raqamingizni ulashing.",
+      "shareButton": "Telefon raqamimni ulashish",
+      "ownContactOnly": "Faqat oʻz Telegram kontaktingizni ulashing. Boshqa odamning raqami qabul qilinmaydi.",
+      "contactVerified": "Telefon raqamingiz tasdiqlandi. Mini App’ga qaytib, hisobni bogʻlashni yakunlang."
+    }
+  },
+  "Loading": {
+    "label": "Sahifa yuklanmoqda"
+  },
+  "Admin": {
+    "nav": {
+      "overview": "Sharh",
+      "menu": "Menyu",
+      "orders": "Buyurtmalar",
+      "settings": "Sozlamalar",
+      "label": "Admin boʻlimlari",
+      "soon": "Tez kunda"
+    },
+    "sidebar": {
+      "console": "Boshqaruv paneli",
+      "environment": "Demo muhit",
+      "demoData": "Faqat lokal maʼlumotlar. Hozircha jonli buyurtmalar yoʻq.",
+      "backToStore": "Doʻkonga qaytish"
+    },
+    "overview": {
+      "eyebrow": "Bugun bir nazarda",
+      "title": "Restoran sharhi",
+      "description": "Bugungi savdoning jonli koʻrinishi. Raqamlar lokal demo maʼlumotlardan hisoblangan.",
+      "revenue": "Bugungi tushum",
+      "orders": "Bugungi buyurtmalar",
+      "avgOrder": "Oʻrtacha buyurtma",
+      "activeItems": "Faol taomlar",
+      "topSellers": "Eng koʻp sotilganlar",
+      "topSellersDescription": "Bugungi buyurtmalar boʻyicha sotilgan dona soni boʻyicha saralangan.",
+      "sold": "{count} ta sotildi",
+      "recentOrders": "Soʻnggi buyurtmalar",
+      "recentOrdersDescription": "Telegram va vebdan kelgan eng yangi cheklar.",
+      "order": "Buyurtma",
+      "customer": "Mijoz",
+      "items": "Taomlar",
+      "total": "Summa",
+      "status": "Holat",
+      "placed": "Vaqt",
+      "channel": "Kanal",
+      "itemCount": "{count} ta taom",
+      "statuses": {
+        "new": "Yangi",
+        "preparing": "Tayyorlanmoqda",
+        "ready": "Tayyor",
+        "completed": "Yakunlandi"
+      },
+      "channels": {
+        "telegram": "Telegram",
+        "web": "Veb"
+      },
+      "demoNotice": "Faqat demo maʼlumotlar",
+      "demoNoticeDescription": "Buyurtmalar va tushum lokal namunadan olingan. Jonli rejimga oʻtish uchun admin xizmatini Supabase soʻrovlari bilan almashtiring.",
+      "integration": {
+        "title": "Integratsiya holati",
+        "telegram": "Telegram bot",
+        "supabase": "Supabase",
+        "payments": "Toʻlovlar",
+        "notConnected": "Ulanmagan",
+        "prepared": "Tayyor"
+      }
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Til",
+    "uz": "Oʻzbekcha",
+    "ru": "Русский"
+  },
+  "NotFound": {
+    "eyebrow": "404",
+    "title": "Bu stol tayyorlanmagan",
+    "description": "Siz qidirayotgan sahifa oshxonadan chiqib ketdi.",
+    "cta": "Menyuga qaytish"
+  },
+  "About": {
+    "pageTitle": "Biz haqimizda",
+    "pageDescription": "Restoranimiz, taomlarimiz va buyurtma berish haqida maʼlumot.",
+    "backToMenu": "Menyuga qaytish",
+    "eyebrow": "Biz haqimizda",
+    "title": "{name} — mazali tanaffus uchun joy!",
+    "intro": "Biz sevimli fast-fud taomlaringizni qulay buyurtma tajribasi bilan birlashtiramiz. Menyudan tanlang, buyurtma bering va restorandan olib keting.",
+    "exploreMenu": "Menyuni ko‘rish",
+    "specialtiesEyebrow": "Nimalar tayyorlaymiz",
+    "specialtiesTitle": "Sevimli taʼmlaringiz",
+    "specialties": {
+      "burgers": "Burgerlar",
+      "chicken": "Tovuq",
+      "sides": "Gazaklar",
+      "drinks": "Ichimliklar"
+    },
+    "whyEyebrow": "Bizning ustunliklarimiz",
+    "whyTitle": "Nega bizni tanlashadi?",
+    "benefits": {
+      "fresh": {
+        "title": "Buyurtmaga tayyorlanadi",
+        "description": "Taomlaringiz buyurtma kelgach tayyorlanishi uchun mo‘ljallangan."
+      },
+      "quick": {
+        "title": "Faqat olib ketish",
+        "description": "Buyurtmani Telegram ichida rasmiylashtirib, restorandan oling."
+      },
+      "care": {
+        "title": "Har bir detal muhim",
+        "description": "Oddiy va tushunarli menyu, qulay savat va buyurtma jarayoni."
+      }
+    },
+    "hoursTitle": "Ish vaqtimiz",
+    "hoursDescription": "Har kuni sizni kutamiz.",
+    "workingHoursUnavailable": "Ish vaqti sozlanmagan.",
+    "locationTitle": "Olib ketish manzili va aloqa",
+    "locationUnavailable": "Manzil sozlanmagan.",
+    "contactUnavailable": "Telefon raqami sozlanmagan.",
+    "days": {
+      "monday": "Dushanba",
+      "tuesday": "Seshanba",
+      "wednesday": "Chorshanba",
+      "thursday": "Payshanba",
+      "friday": "Juma",
+      "saturday": "Shanba",
+      "sunday": "Yakshanba"
+    }
+  }
+}
